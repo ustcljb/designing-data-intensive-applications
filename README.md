@@ -1,1 +1,3 @@
-# designing-data-intensive-applications
+### About
+
+This repo contains the notes I took when I learnt the book *designing data-intensive applications*
