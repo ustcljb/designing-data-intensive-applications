@@ -1,4 +1,4 @@
-### Reliable, scalable and maintainable applications
+# Reliable, scalable and maintainable applications
 
 -  Many data-intensive applications include the following functionalities:
     -  Store data so that they, or another application, can find it again later (*databases*)
