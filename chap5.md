@@ -10,3 +10,6 @@ All of the difficulty in replication lies in handling *changes* to replicated da
 
 ## Leaders and followers
 ![leaders and followers](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/leader_follower.png)
+
+## Synchronous versus asynchronous replication
+![synchronous versus asynchronous replication](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/sync_async.png)
