@@ -9,4 +9,4 @@ reasons why you might want to replicate data:
 All of the difficulty in replication lies in handling *changes* to replicated data, and there are three popular algorithms for replicating changes between nodes: *single-leader*, *multi-leader*, and *leaderless* replication.
 
 ## Leaders and followers
-[leaders and followers](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/leader_follower.png)
+![leaders and followers](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/leader_follower.png)
