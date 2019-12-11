@@ -10,3 +10,10 @@ In this chapter the author explains several formats for encoding data, including
 And most importantly, how *schema evolution* is achieved.
 
 ## Modes of Dataflow
+
+-  Compatibility is a relationship between one process that encodes the data, and another process that decodes it. Data can flow via different processes:
+   -  via databases
+   -  via service calls
+   -  via asynchronous message passing
+   
+
