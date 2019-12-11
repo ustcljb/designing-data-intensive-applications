@@ -11,4 +11,3 @@ When talking about data representation, there are multi-level models:
 
 - Document databases are sometimes called *schemaless*, or actually *schema-on-read*, whereas the relational databases are often called *schema-on-write*.
 - Schema-on-read is similar to dynamic (runtime) type checking in programming languages, whereas schema-on-write is similar to static (compile-time) type checking.
--
