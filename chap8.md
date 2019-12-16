@@ -20,7 +20,7 @@ In this kind of network, one node can send a message (a packet) to another node,
 The usual way of handling this issue is a *timeout*. However, it is really hard to determine what is a suitable timeout.
 
 ### Synchronous versus asynchronous networks
-- Can we not simply make network delays predictable?
+- We can not simply make network delays predictable:
    - Ethernet and IP are packet-switched protocols, which suffer from queueing and thus unbounded delays in the network. These protocols do not have the concept of a circuit.
    - Why do datacenter networks and the internet use packet switching? The answer is that they are optimized for *bursty traffic*.
    - Requesting a web page, sending an email, or transferring a file doesn’t have any particular bandwidth requirement—we just want it to complete as quickly as possible.
