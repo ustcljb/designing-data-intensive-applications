@@ -33,6 +33,11 @@ Modern computers have at least two different kinds of clocks: a *time-of-day clo
 -  A monotonic clock is suitable for measuring a duration (time interval), such as a timeout or a service’s response time.
 -  It is possible to achieve very good clock accuracy if you care about it sufficiently to invest significant resources. Such accuracy can be achieved using GPS receivers, the Precision Time Protocol (PTP), and careful deployment and monitoring.
 
+## NPT vs PTP
+For most commercial and industrial applications, NTP is more than accurate enough, but if you need even tighter synchronization and timestamping, you'll need to migrate to a PTP server.
+
+Why is PTP timestamping so accurate? It uses hardware timestamping instead of software, and like any other fine scientific instrument, PTP equipment is dedicated to one specialized purpose: keeping devices synchronized.
+
 ## Byzantine faults
 Distributed systems problems become much harder if there is a risk that nodes may “lie” (send arbitrary faulty or corrupted responses)—for example, if a node may claim to have received a particular message when in fact it didn’t. Such behavior is known as a *Byzantine fault*, and the problem of reaching consensus in this untrusting environment is known as the *Byzantine Generals Problem*.
 
