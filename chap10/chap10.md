@@ -56,6 +56,6 @@ Impala.
 using only a small in-memory buffer.
 - In order to fix these problems with MapReduce, several new execution engines for distributed batch computations were developed, the most well known of which are Spark, Tez and Flink.
 - Since they explicitly model the flow of data through several processing stages, these systems are known as *dataflow engines*.
-- Fault tolerance:
-   - These dataflow engines don't write intermediate state to HDFS, so they take a different approach to tolerating faults.
-   - Spark uses the resilient distributed dataset (RDD) abstraction for tracking the ancestry of data, while Flink checkpoints operator state, allowing it to resume running an operator that ran into a fault during its execution.
+### Fault tolerance:
+- These dataflow engines don't write intermediate state to HDFS, so they take a different approach to tolerating faults.
+- Spark uses the resilient distributed dataset (RDD) abstraction for tracking the ancestry of data, while Flink checkpoints operator state, allowing it to resume running an operator that ran into a fault during its execution.
