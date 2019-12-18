@@ -19,11 +19,11 @@ or *results*. These are *online* systems, where we pay more attention to the *re
 - MapReduce is a bit like Unix tools, but distributed across potentially thousands of machines.
 - MapReduce is a programming framework with which you can write code to process large datasets in a distributed filesystem like HDFS.
 - MapReduce dataflow
-![]()
+![map reduce dataflow](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/chap10/map_reduce_dataflow.png)
 ### Reduce-side joins and grouping
 - When a MapReduce job is given a set of files as input, it reads the entire content of all of those files; a database would call this operation a *full table scan*.
 - Sort-merge joins
-![]()
+![reduce-side sort-merge join](https://github.com/ustcljb/designing-data-intensive-applications/blob/master/chap10/reduce_side_sort_merge_join.png)
 - Handling skew
    - The pattern of “bringing all records with the same key to the same place” breaks down if there is a very large amount of data related to a single key.
    - The *skewed* join method in Pig first runs a sampling job to determine which keys are hot.
